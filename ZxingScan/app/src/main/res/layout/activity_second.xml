@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--这个一定要是全屏，不然会扫描的东西会有点压扁的效果，然后ToolBar之类的可以依附这个之上-->
+    <FrameLayout
+        android:id="@+id/fl_my_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+    </FrameLayout>
+
+    <!--放置定义界面布局，可以在这里进行放置，比如说ToolBar按钮之类的-->
+    <RelativeLayout
+        android:id="@+id/tlToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_gravity="top"
+        android:background="#de3838">
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:background="@mipmap/icon_back"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:text="扫一扫"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rltBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="#9c82c684"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/shape_btn_selector"
+            android:text="开始"
+            android:textColor="#ffffff"
+            android:padding="10dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:padding="10dp"
+            android:background="@drawable/shape_btn_selector"
+            android:text="暂停"
+            android:textColor="#ffffff"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+</FrameLayout>

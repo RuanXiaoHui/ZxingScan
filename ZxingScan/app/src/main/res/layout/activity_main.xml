@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnSelectPic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择图片并解析"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnScanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定制化扫描界面"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/btnSelectPic"
+        />
+
+    <Button
+        android:id="@+id/btnEncode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试生成二维码图片"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/btnScanner"
+        />
+
+</RelativeLayout>
