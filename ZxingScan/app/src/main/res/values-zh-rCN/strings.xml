@@ -2,4 +2,5 @@
 <resources>
 
     <string name="scan_qrcode_prompt">将QR Code置于取景框内，即可自动扫描</string>
+    <string name="app_name">Zxing扫描</string>
 </resources>

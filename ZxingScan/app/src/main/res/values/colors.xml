@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#b11414</color>
+    <color name="colorPrimaryDark">#b11414</color>
+    <color name="colorAccent">#b11414</color>
 
     <color name="laser_color">#0F0</color>
     <color name="scan_corner_color">#0effc2</color>

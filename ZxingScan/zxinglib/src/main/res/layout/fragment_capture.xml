@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <com.formssi.zxinglib.view.ViewfinderView
+    <cn.jackson.zxinglib.view.ViewfinderView
         android:id="@+id/viewfinder_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />

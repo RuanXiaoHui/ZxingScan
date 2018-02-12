@@ -7,33 +7,30 @@
     <Button
         android:id="@+id/btnSelectPic"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="选择图片并解析"
+        android:layout_height="70dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
-        />
+        android:text="选择二维码图片解析" />
 
     <Button
         android:id="@+id/btnScanner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="定制化扫描界面"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_height="70dp"
         android:layout_below="@+id/btnSelectPic"
-        />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="定制化扫描界面" />
 
     <Button
         android:id="@+id/btnEncode"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="测试生成二维码图片"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
+        android:layout_height="70dp"
         android:layout_below="@+id/btnScanner"
-        />
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="测试生成二维码图片" />
 
 </RelativeLayout>

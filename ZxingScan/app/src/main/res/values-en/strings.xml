@@ -2,4 +2,5 @@
 <resources>
 
     <string name="scan_qrcode_prompt">Place QR Code inside the screen in order to scan the QR Code automatically</string>
+    <string name="app_name">Zxing Scan</string>
 </resources>
